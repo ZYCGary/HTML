@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>h & p & ul & ol & dl</title>
+</head>
+
+<body>
+  <h1 align="left">Heading 1</h1>
+  <h2 align="center">Heading 2</h2>
+  <h3 align="right">Heading 3</h3>
+
+  <p align="center">还是跟学习
+    <font color="red" size=16pt><i><b>HTML</b></i></font> 一样，过一遍即可，我们的目的只求知道个大概，以方便后面其他课程的继续， 不懂得东西后面等我们慢慢上手，找到舒适感了，再逐个击破。
+  </p>
+  <p align="right">有了上面的基础知识，接下来可以开始学习实战课程了。 这是最重要的一步，一个 PHP 工程师的能力，完全是靠项目累积出来的。 我们经常笑称为「打怪升级」，从第一个项目开始，每做多一个项目，能力值和经验值就会增加。
+  </p>
+  <p align="left">有了上面的基础知识，接下来可以开始学习实战课程了。 这是最重要的一步，一个 PHP 工程师的能力，完全是靠项目累积出来的。 我们经常笑称为「打怪升级」，从第一个项目开始，每做多一个项目，能力值和经验值就会增加。
+  </p>
+
+  <div>
+    <h1>ul</h1>
+    <ul type="circle">
+      <li>ABC</li>
+      <li>DEF</li>
+      <li>GHI</li>
+    </ul>
+  </div>
+
+  <div>
+    <h1>ol</h1>
+    <ol>
+      <li>ABC</li>
+      <li>DEF</li>
+      <li>GHI</li>
+    </ol>
+  </div>
+
+  <div>
+    <dl>
+      <dt>电子产品</dt>
+      <dd>主机 显示器 电脑 鼠标 键盘</dd>
+      <dt>化妆品</dt>
+      <dd>唇彩 口红 眼影 眉笔</dd>
+    </dl>
+  </div>
+
+</body>
+
+</html>

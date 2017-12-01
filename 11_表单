@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>表单</title>
+  </head>
+  <body>
+    <!-- 表单：可以获取客户端信息（数据），表单有各种控件 -->
+    <!-- 功能：交互功能 -->
+    <!-- 工作原理：浏览有表单的页面，填写信息，单机提交按钮，验证输入，提交数据至服务器，存入数据库 -->
+<form name="Bill" action="index.html" method="post">
+  <!-- post 直接传递数据至文件处理程序，相对安全 -->
+</form>
+<form name="Game" action="index.html" method="get">
+  <!-- get 通过地址传递数据：不能传递敏感数据（密码），不能传递大量数据（<=1024byte），不能上传附件 -->
+</form>
+  </body>
+</html>

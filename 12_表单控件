@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>表单控件</title>
+</head>
+
+<body>
+  <form action="XXX.php">
+    <!-- 单行文本框 -->
+    User Name <input type="text" name="user_name" size="25" maxlength="8" value="Gary">
+    <!-- 密码框 -->
+    <!-- readonly:只可选择，不可更改  disabled:不可选择，不可更改（FireFox） -->
+    <br> Password <input type="password" name="password" size="25" maxlength="8" value="00000000" readonly="readonly" disabled="disabled">
+    <!-- 单选按钮 -->
+    <!-- 单选按钮组的name要相同 -->
+    <!-- value必须有 -->
+    <br> Gender <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+    <!-- 复选框 -->
+    <br> Hobby
+    <input type="checkbox" name="hobby" value="coding" checked>Coding
+    <input type="checkbox" name="hobby" value="sleeping">Sleeping
+    <input type="checkbox" name="hobby" value="food" checked>Food
+    <input type="checkbox" name="hobby" value="hiking">Hiking
+    <!-- 多行文本框:Google翻译 -->
+    <br> Commend
+    <textarea name="commend" rows="8" cols="80">Please type your commend here</textarea>
+    <!-- 下拉列表 -->
+    <br> Country
+    <select name="country">
+      <option value="none">&nbsp;&nbsp;---Please select country---&nbsp;&nbsp;</option>
+      <option value="china">&nbsp;&nbsp;China&nbsp;&nbsp;</option>
+      <option value="usa">&nbsp;&nbsp;USA&nbsp;&nbsp;</option>
+      <option value="au">&nbsp;&nbsp;Australia&nbsp;&nbsp;</option>
+    </select>
+    <!-- 隐藏域 -->
+    <input type="hidden" name="id1" value="">
+    <!-- 文件域 -->
+    <!-- 没有value，但有name -->
+    <br> Please upload file
+    <input type="file" name="filename">
+    <!-- 提交按钮 -->
+    <br>
+    <input type="submit" name="submit" value="submit">
+<!-- 图片按钮：提交按钮的一种 -->
+<input type="image" src="images/6_cute3.jpg "name="cute">
+    <!-- 重置按钮 -->
+    <input type="reset" name="reset" value="Reset">
+    <!-- 普通按钮 -->
+    <input type="button" name="vote" value="Vote" onclick="javascript:window.alert('You can only vote only one time')">
+  </form>
+</body>
+
+</html>

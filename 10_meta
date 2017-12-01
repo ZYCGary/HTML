@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- 每4秒自动刷新网页 -->
+  <meta http-equiv="refresh" content="4">
+  <!-- 8秒后自动跳转至其他页面 -->
+  <meta http-equiv="refresh" content="8;http://www.google.com.au">
+  <!-- name：设置网页关键字/描述信息，便于搜索引擎需要 -->
+  <meta name="keywords" content="Gary,Lily">
+  <meta name="description" content="Lily">
+  <!-- name:网站作者 -->
+  <meta name="author" content="Gary">
+  <title>meta</title>
+</head>
+
+<body>
+  <font color="red">Change color</font>
+</body>
+
+</html>

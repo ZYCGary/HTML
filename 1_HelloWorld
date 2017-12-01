@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Hello World!!</title>
+</head>
+
+<body>
+  Hello
+  <font color="red" , size="24pt" , face="隶书">World</font>
+
+  Hello <b>World</b> Hello <strong>World</strong> Hello <i>World</i> Hello <em>World</em> Hello <u>World</u> Hello <ins>World</ins> Hello <sup>World</sup> Hello <sub>World</sub>
+
+  <h2 align="center"><font color = "blue">This is heading</font></h2>
+  <p>This is passage <b>ONE</b></p>
+  <p>This is passage <b>TWO</b></p>
+
+  <pre>
+    12345
+      12345
+        12345
+          12345
+  </pre>
+
+  <div>
+    Hello World!!
+  </div>
+  <div>
+    Hello World!!
+  </div>
+  <div>
+    Hello World!!
+  </div>
+
+  <span>Hello World!!</span>
+</body>
+
+</html>

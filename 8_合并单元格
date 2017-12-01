@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Merge cells</title>
+  </head>
+  <body>
+    <br>
+    <table border="1">
+      <tr align="center">
+        <td colspan="3">AAA</td>
+      </tr>
+      <tr align="center">
+        <td>BBB</td>
+        <td colspan="2">BBB</td>
+      </tr>
+      <tr>
+        <td>BBB</td>
+        <td>BBB</td>
+        <td>BBB</td>
+      </tr>
+    </table><br>
+    <table border="1">
+      <tr align="center">
+        <td>AAA</td>
+        <td>AAA</td>
+        <td rowspan="3">AAA</td>
+      </tr>
+      <tr>
+        <td>BBB</td>
+        <td>BBB</td>
+      </tr>
+      <tr>
+        <td>BBB</td>
+        <td>BBB</td>
+      </tr>
+    </table>
+  </body>
+</html>

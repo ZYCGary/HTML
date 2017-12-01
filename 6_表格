@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Table</title>
+</head>
+
+<body>
+  <table border="1" width="400" align="center" cellpadding="10" cellspacing="0">
+    <td>
+      <img src="images/6_cute1.jpg" alt="cute1" width="100">
+    </td>
+    <td>
+      <img src="images/6_cute2.jpg" alt="cute2" width="100">
+    </td>
+    <td>
+      <img src="images/6_cute3.jpg" alt="cute3" width="100">
+    </td>
+    </tr>
+    <tr height="80" bgcolor="gree" align="center" valign="bottom">
+      <td>Cute1</td>
+      <td>Cute2</td>
+      <td>Cute3</td>
+    </tr>
+  </table>
+
+  <table width="600" height="600" align="center"border="1" bgcolor="gree" background="images/6_cute2.jpg">
+    <tr>
+      <td>AAA</td>
+      <td>BBB</td>
+    </tr>
+    <tr>
+      <td>CCC</td>
+      <td>DDD</td>
+    </tr>
+  </table>
+</body>
+
+</html>
